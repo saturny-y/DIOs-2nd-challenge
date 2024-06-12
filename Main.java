@@ -26,8 +26,8 @@ public class Main {
         
         final String heroX = "O antiherói de nome";
         final String levelX = "está no nível de";
-        String heroName = "Sat";
-        System.out.printf("%s %s %s %s.%n", heroX, heroName, levelX, experience);
+        String antiheroName = "Sat";
+        System.out.printf("%s %s %s %s.%n", heroX, antiheroName, levelX, experience);
         
     }   
         
