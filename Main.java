@@ -1,9 +1,8 @@
-
 public class Main {
-
     public static void main(String[] args) {
         int xp = 16000;
         String experience;
+        
         if (xp < 1000) {
             experience = "Ferro";
         } else if (xp <= 2000 && xp >= 1001) {
@@ -23,12 +22,9 @@ public class Main {
         } else {
             experience = "Antisocial";
         }
-        
-        final String heroX = "O antiherói de nome";
-        final String levelX = "está no nível de";
-        String antiheroName = "Sat";
-        System.out.printf("%s %s %s %s.%n", heroX, antiheroName, levelX, experience);
-        
-    }   
-        
+
+        String antiheroName = "Sat";      
+        final String antiheroX = "O antiherói de nome " + antiheroName + " está no nível de";
+        System.out.printf("%s %s.%n", antiheroX, experience);   
+    }          
 }
